@@ -11,4 +11,4 @@ RUN go get gopkg.in/mgo.v2
 RUN go get github.com/99designs/gqlgen
 # gqlgenの枠組み
 RUN go run github.com/99designs/gqlgen init
-ADD ./gqlgen-todos /go/src/gqlgen-todos
+ADD . /go/src/gqlgen-todos

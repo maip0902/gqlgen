@@ -5,7 +5,7 @@ services:
     build: .
     tty: true
     volumes:
-      - ./gqlgen-todos:/go/src/gqlgen-todos
+      - .:/go/src/gqlgen-todos
     ports:
       - "8080:8080"
     environment:
